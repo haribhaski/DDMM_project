@@ -1,0 +1,33 @@
+{
+  "model_config": {
+    "base_model": "m3rg-iitd/matscibert",
+    "max_length": 512,
+    "output_dir": "matscibert-hea-ner-unsloth"
+  },
+  "training_config": {
+    "num_epochs": 8,
+    "batch_size": 4,
+    "learning_rate": 0.0002,
+    "warmup_steps": 50,
+    "weight_decay": 0.01,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1
+  },
+  "data_config": {
+    "train_split": 0.8,
+    "batch_size_annotation": 3
+  },
+  "ontology": {
+    "Material": "HEA material names and compositions (e.g., 'TiVZrNbHf', 'Cantor alloy')",
+    "ChemicalElement": "Chemical elements (e.g., 'Ti', 'V', 'Zr', 'Nb', 'Hf')",
+    "SynthesisProcess": "Material synthesis methods (e.g., 'arc melting', 'mechanical alloying')",
+    "Microstructure": "Microstructural features (e.g., 'BCC phase', 'FCC phase', 'nanocrystalline')",
+    "HydrogenProperty": "Hydrogen-related properties (e.g., 'hydrogen storage capacity', 'absorption kinetics')",
+    "MechanicalProperty": "Mechanical properties (e.g., 'hardness', 'strength', 'ductility')",
+    "TestingMethod": "Characterization methods (e.g., 'XRD', 'PCT measurement', 'SEM')",
+    "Value": "Numerical values with units (e.g., '2.5 wt%', '300 \u00b0C', '100 MPa')",
+    "Application": "Applications (e.g., 'solid-state hydrogen storage', 'fuel cells')",
+    "Defect": "Material defects (e.g., 'crack', 'void', 'dislocation')"
+  }
+}

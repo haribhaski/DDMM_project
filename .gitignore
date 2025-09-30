@@ -1,0 +1,9 @@
+# Virtual environment
+venv/
+
+.env
+# Mac files
+.DS_Store
+Data/
+Data.zip
+matscibert-hea-hydrogen-lora/
