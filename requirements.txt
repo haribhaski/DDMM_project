@@ -1,0 +1,47 @@
+# HEA Knowledge Extractor Requirements
+# =====================================
+
+# Core dependencies
+mistralai>=1.2.0
+google-genai>=0.8.0
+neo4j>=5.28.0
+python-dotenv>=1.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Text processing
+nltk>=3.8.0
+spacy>=3.7.0
+scikit-learn>=1.3.0
+
+# Utilities
+pathlib2>=2.3.7
+tqdm>=4.66.0
+requests>=2.31.0
+
+# Development and testing (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Logging and monitoring
+loguru>=0.7.0
+
+# Optional: For advanced NLP features
+transformers>=4.30.0
+torch>=2.0.0
+
+
+
+
+
+
+
+
+
+
+
+
