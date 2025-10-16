@@ -1,8 +1,11 @@
 This is a project done for subject DDMM by Hariharan(Me), Sai Nivedh, Rohith Balaji and Krish S. Our project is about creating an Ontology for Hydrogen Storage High-Entropy Alloys with a pipeline that is completely autmated witht he help of AI.
+
+
 This project s divided into 2 phases.
 
-Phase 1: Finetuning MatSciBERT Model # Main Branch
-Phase 2: Building a Knowledge Graph  # Sai-code Branch
+Phase 1: Finetuning MatSciBERT Model - *Main Branch*
+
+Phase 2: Building a Knowledge Graph  - *Sai-code Branch*
 
 #Phase 1:
 #MatSciBERT NER Pipeline (HEA & Hydrogen Storage)
